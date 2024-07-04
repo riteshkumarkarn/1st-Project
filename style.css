@@ -1,0 +1,134 @@
+body {
+    background-color: #dfe3e6;
+    height: 675px;
+}
+#blue {
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    background-color: #518dac;
+    border: 2px white solid;
+}
+#circle {
+    width: 185px;
+    height: 185px;
+    margin-top: 200px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid white;
+    border-bottom: 2px solid #518dac;
+    border-radius: 50%;
+    background-image: url("assets/me.jpg");
+    background-size: cover;
+    position: relative;
+    top: -130px;
+    z-index: 1;
+}
+#white {
+    width: 500px;
+    height: 410px;
+    background-color: white;
+    border: 2px white solid;
+    margin: auto;
+    position: relative;
+    top: -190px;
+    z-index: -1;
+    text-align: center;
+    font-weight: bolder;
+}
+#social {
+    width: 500px;
+    height: 44px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -410px;    
+}
+#fb {
+    height: 40px;
+    width: 40px;
+    border: 2px #518dac solid;
+    border-radius: 50%;
+    background-image: url("assets/fb1.png");
+    background-size: cover
+}
+#twitter {
+    height: 40px;
+    width: 40px;
+    border: 2px #518dac solid;
+    border-radius: 50%;
+    background-image: url("assets/twitter.jpg");
+    background-size: cover
+}
+#insta {
+    height: 40px;
+    width: 40px;
+    border: 2px #518dac solid;
+    border-radius: 50%;
+    background-image: url("assets/insta.png");
+    background-size: cover
+}
+#yt {
+    height: 40px;
+    width: 40px;
+    border: 2px #518dac solid;
+    border-radius: 50%;
+    background-image: url("assets/yt.png");
+    background-size: cover;
+}     
+#submssg {
+    width: 500px;
+    height: 28px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -378px;
+    font-size: 18px;
+    color: white;
+}
+#sub {
+    text-align: center;
+    width: 80px;
+    height: 25px;
+    border: 2px black solid;
+    border-radius: 8%;
+    background-color: #518dac;
+}
+#mssg {
+    text-align: center;
+    width: 80px;
+    height: 25px;
+    border: 2px black solid;
+    border-radius: 8%;
+    background-color: #518dac;
+}
+#lcs {
+    width: 500px;
+    height: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 340px;
+}
+#line {
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 370px;
+}
+#l1 {
+    width: 2px;
+    height: 35px;
+    background-color: black;
+}
+#l2 {
+    width: 2px;
+    height: 35px;
+    background-color: black;
+}
